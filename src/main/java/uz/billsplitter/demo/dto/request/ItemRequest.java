@@ -1,6 +1,6 @@
 package uz.billsplitter.demo.dto.request;
 
-import uz.billsplitter.demo.constant.ItemType;
+import uz.billsplitter.demo.constant.enums.ItemType;
 
 import java.math.BigDecimal;
 

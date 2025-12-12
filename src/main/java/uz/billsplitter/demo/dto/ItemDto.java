@@ -1,6 +1,6 @@
 package uz.billsplitter.demo.dto;
 
-import uz.billsplitter.demo.constant.ItemType;
+import uz.billsplitter.demo.constant.enums.ItemType;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -23,7 +23,7 @@ public class BillSplitterController {
 
     BillSplitterService billSplitterService;
 
-    @PostMapping("/split")
+    @PostMapping("/splitting")
     public ResponseEntity<BillResponse> split(@Valid @RequestBody BillRequest billRequest) {
         BillResponse response = billSplitterService.split(billRequest);
         return ResponseEntity.ok(response);

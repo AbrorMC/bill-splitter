@@ -4,7 +4,7 @@ import lombok.*;
 import lombok.experimental.FieldDefaults;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
-import uz.billsplitter.demo.constant.CommissionType;
+import uz.billsplitter.demo.constant.enums.CommissionType;
 
 import java.math.BigDecimal;
 
