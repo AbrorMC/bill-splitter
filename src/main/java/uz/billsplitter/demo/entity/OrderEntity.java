@@ -22,7 +22,8 @@ public class OrderEntity extends BaseEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
 
-    @OneToMany(mappedBy = "item", fetch = FetchType.LAZY, orphanRemoval = true)
+    @Builder.Default
+    @OneToMany(mappedBy = "order", fetch = FetchType.LAZY, orphanRemoval = true)
     List<ItemEntity> items = new ArrayList<>();
 
 }
